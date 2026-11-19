@@ -125,19 +125,18 @@ a:hover, a:focus-visible {
   }
 
  .colums{
-    font-size: 18px;
+    font-size: 30px;
   }
 
   a{ font-size: 10px;}
     ul{ font-size: 15px;}
     il{ font-size: 10px;}
+
+    main { flex-direction: column; }
+  header { height: 25vh; }
   
 }
 
-@media (max-width: 800px) {
-  main { flex-direction: column; }
-  header { height: 25vh; }
-}
 
 
 
