@@ -61,7 +61,7 @@ background-size: cover;
   width: 100%;
   height: 190px;
   margin-bottom: 20px;
-  border: 6px outset rgb(59, 0, 0);
+  border: 6px solid rgb(255, 255, 255);
   border-radius: 40px; 
   overflow: hidden;
   box-shadow: inset 0 0 0 2px #fff5df;
@@ -164,7 +164,7 @@ a:hover, a:focus-visible {
 @media screen and (max-width: 640px) {
   .colums {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 40px;
     padding: 0 14px;
     margin: 20px auto;
   }
@@ -184,7 +184,7 @@ a:hover, a:focus-visible {
   }
 
   .title {
-    display: block;            /* centered, full width */
+    display: block;        
     margin: 2vh 12px 0;
     padding: 20px 16px;
   }
@@ -200,7 +200,7 @@ a:hover, a:focus-visible {
 
   a {
     font-size: 1.1rem;
-    padding: 12px;             /* comfortable tap target */
+    padding: 12px;        
   }
 
   .art-frame,
