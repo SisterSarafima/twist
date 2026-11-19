@@ -122,7 +122,17 @@ a:hover, a:focus-visible {
 @media screen and (max-width: 1400px) {
 
 
-    main { flex-direction: column; }
+     .title .title small .title h1 .header{
+    font-size: 60px;
+  }
+
+ .colums{
+    font-size: 30px;
+  }
+
+  a{ font-size: 10px;}
+    ul{ font-size: 15px;}
+    il{ font-size: 10px;}
   header { height: 25vh; }
   
 }
