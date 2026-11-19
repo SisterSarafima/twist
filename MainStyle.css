@@ -139,7 +139,7 @@ a:hover, a:focus-visible {
   color: #e6d36a;
 }
 
-@media screen and (max-width: 1980px) {
+@media screen and (min-width: 800px) {
 
 
      .title .title small .title h1 .header{
