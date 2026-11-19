@@ -143,8 +143,10 @@ a:hover, a:focus-visible {
 
  .colums{
     font-size: 30px;
+   column-count: 1;
   }
 
+  h3{ font-size: 20px;}
   a{ font-size: 10px;}
     ul{ font-size: 15px;}
     il{ font-size: 20px;}
