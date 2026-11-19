@@ -141,18 +141,13 @@ a:hover, a:focus-visible {
 
 @media screen and (max-width: 800px) {
 
-
-     .title .title small .title h1 .header{
-    font-size: 30px;
-  }
-
  .colums{
     font-size: 30px;
   }
 
   a{ font-size: 10px;}
     ul{ font-size: 15px;}
-    il{ font-size: 10px;}
+    il{ font-size: 20px;}
   header { height: 35vh; }
   
 }
