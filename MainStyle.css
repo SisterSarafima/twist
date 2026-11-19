@@ -139,22 +139,21 @@ a:hover, a:focus-visible {
   color: #e6d36a;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
 
 
      .title .title small .title h1 .header{
-    font-size: 60px;
+    font-size: 30px;
   }
 
  .colums{
     font-size: 30px;
-   column-count: 1;
   }
 
   a{ font-size: 10px;}
     ul{ font-size: 15px;}
     il{ font-size: 10px;}
-  header { height: 25vh; }
+  header { height: 35vh; }
   
 }
 
