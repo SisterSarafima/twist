@@ -141,6 +141,13 @@ a:hover, a:focus-visible {
 
 @media screen and (max-width: 800px) {
 
+  body{
+    width: 100%;
+  }
+
+  header { 
+    width: 100%:
+  }
  .colums{
     font-size: 30px;
    column-count: 1;
