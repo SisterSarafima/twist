@@ -148,6 +148,7 @@ a:hover, a:focus-visible {
 
  .colums{
     font-size: 30px;
+   column-count: 1;
   }
 
   a{ font-size: 10px;}
