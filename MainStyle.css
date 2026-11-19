@@ -159,9 +159,56 @@ a:hover, a:focus-visible {
     il{ font-size: 20px;}
   header { height: 45vh; }
   .title h1{ font-size: 20px;}
-  
-  
 }
+
+@media screen and (max-width: 640px) {
+  .colums {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 14px;
+    margin: 20px auto;
+  }
+
+  .ColumStyle:last-child {
+    max-width: none;
+  }
+
+  .ColumStyle {
+    border-width: 10px;
+    border-radius: 28px;
+    padding: 8px 14px;
+  }
+
+  header {
+    min-height: 0;
+  }
+
+  .title {
+    display: block;            /* centered, full width */
+    margin: 2vh 12px 0;
+    padding: 20px 16px;
+  }
+
+  .title .small {
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    font-size: 1.15rem;
+  }
+
+  a {
+    font-size: 1.1rem;
+    padding: 12px;             /* comfortable tap target */
+  }
+
+  .art-frame,
+  .References {
+    height: 160px;
+  }
+}
+
 
 
 
